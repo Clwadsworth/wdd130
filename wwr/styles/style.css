@@ -244,3 +244,104 @@ main section img {
     margin: 0 auto;
 }
 
+.child-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    gap: 30px 0; 
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.river-card {
+    grid-column: 1 / 11; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
+    align-items: center;
+    background-color: #6f7364; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.river-card img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ceca9a;     
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    grid-column: 1 / 2;
+}
+
+.river-text {
+    text-align: left;              
+    color: #ceca9a;
+    grid-column: 2 / 5;
+}
+
+.river-text h2 {
+    font-family: "Averia Gruesa Libre", serif;
+    margin-bottom: 15px;
+}
+
+.river-text p {
+    font-family: "Averia Gruesa Libre", serif;
+    margin-top: 0; 
+    margin-bottom: 15px;
+}
+
+.river-text .button {
+    background-color: #265f44;
+    color: #ceca9a;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ceca9a;
+    display: inline-block;
+}
+
+.river-text .button:hover {
+    background-color: #ceca9a;
+    color: #265f44;
+}
+
+#background2 {
+    background-color: #265f44;
+    grid-column: 1 / 11;
+    grid-row: 10 / 15; 
+    z-index: -1;
+}
+
+.mountains2 {
+    width: 100%;
+    display: block;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2 / 8; 
+    grid-row: 11 / 14; 
+    z-index: 1;
+}
+
+.msg2 {
+    background-color: #265f44;
+    padding: 35px;
+    grid-column: 6 / 10; 
+    grid-row: 12 / 13; 
+    color: #ceca9a;
+    z-index: 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg2 h2 {
+    font-family: "Averia Gruesa Libre", serif;
+    margin-bottom: 15px;
+}
+
+.msg2 p {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+}
+
+.msg2 a {
+    color: #ceca9a;
+    text-decoration: none;
+}
+
