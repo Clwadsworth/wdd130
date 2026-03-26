@@ -51,7 +51,7 @@ header {
     height: auto;
 }
 
-nav {
+/* nav {
     display: flex;
     gap: 20px;
 }
@@ -67,7 +67,7 @@ nav a {
 nav a:hover {
     background-color: #c05746;
     border-radius: 5px;
-}
+} */
 
 
 #hero {
@@ -166,12 +166,12 @@ footer p {
 
 .topnav {
   overflow: hidden;
-  background-color: #c05746;
+  background-color: #503047;
 }
 
 .topnav a {
   float: left;
-  color: white;
+  color: #adc698;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
